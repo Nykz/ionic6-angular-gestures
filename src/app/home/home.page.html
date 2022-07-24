@@ -1,0 +1,79 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Gestures
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appGesture
+    [gestureOpts]="[{name: 'tap'}]"
+    (tap)="onTap($event)">
+    TAP GESTURE
+  </ion-button>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appGesture
+    [gestureOpts]="[{name: 'doubleTap'}]"
+    (doubleTap)="onDoubleTap($event)">
+    DOUBLE TAP GESTURE
+  </ion-button>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appGesture
+    [gestureOpts]="[{name: 'press'}]"
+    (press)="onPress($event)">
+    LONG PRESS GESTURE
+  </ion-button>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appGesture
+    [gestureOpts]="[{name: 'swipe'}]"
+    (swipe)="onSwipe($event)">
+    SWIPE GESTURE
+  </ion-button>
+
+  <!-- <ion-button
+    class="ion-margin" 
+    expand="block"
+    appTap
+    (tap)="onTap($event)">
+    TAP GESTURE
+  </ion-button>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appTap
+    (doubleTap)="onDoubleTap($event)">
+    DOUBLE TAP GESTURE
+  </ion-button>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appPress
+    (press)="onPress($event)">
+    LONG PRESS GESTURE
+  </ion-button>
+
+  <ion-button
+    class="ion-margin" 
+    expand="block"
+    appSwipe
+    (swipe)="onSwipe($event)">
+    SWIPE GESTURE
+  </ion-button> -->
+
+</ion-content>

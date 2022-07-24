@@ -1,0 +1,7 @@
+{
+  "name": "gestures",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
